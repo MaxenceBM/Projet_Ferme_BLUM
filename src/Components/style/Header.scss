@@ -1,0 +1,55 @@
+.menu{
+    width: 100%;
+    height: 66px;
+    background-color: #000000;
+    opacity: 46%;
+    line-height: 66px;
+    position: fixed;
+    z-index: 20;
+}
+
+
+.m-left{
+    float: left;
+}
+.logo{
+    margin: 0;padding: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family:"Amiko";
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+
+.logo:hover{
+    border-bottom: 2px solid #fff;
+    padding-bottom: 3px;
+}
+
+.m-right{
+   float: right; 
+}
+
+.m-link{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Amiko";
+    font-size:25px ;
+    padding: 0; margin: 0 70px;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+
+.m-link:hover{
+    border-bottom: 2px solid #fff;
+    padding-bottom: 3px;
+}
+
+.m-link .i {
+    margin-right: 15px;
+}
+

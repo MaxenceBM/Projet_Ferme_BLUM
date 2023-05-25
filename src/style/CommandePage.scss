@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+
+
+// 11/05/23
+.TitreContainerCommande{
+  padding-top: 7rem;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  padding-bottom: 10px;
+
+}
+
+.titreCommande{
+  font-family: "montserrat";
+  font-size: 50px;
+  padding-bottom: 3rem;
+  
+}
+
+.imgContainer{
+overflow: hidden;
+}
+
+.imgContainer img {
+transition: transform 0.5s ease;
+}
+
+.imgContainer:hover img{
+  transform: scale(1.2);
+}
+
+.imgViande{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.Catalogue{
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 0px 30rem 0px 30rem;
+}
+.Carte{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+.détail{
+  text-align: center;
+  font-family: "montserrat";
+  font-weight:bold;
+}
+}
+}
+

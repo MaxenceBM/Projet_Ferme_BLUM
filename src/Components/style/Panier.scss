@@ -1,0 +1,40 @@
+.GlobalPage {
+  margin: 50px;
+}
+
+.ContainerElement {
+  background-color: #7ea586ca;
+  width: 500px;
+  height: 600px;
+}
+
+.ElementPanier {
+  display: flex;
+  flex-direction: column;
+  .TitrePanier {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+  }
+}
+
+
+.ContainerPanier{
+    display: flex;
+    justify-content: center;
+}
+
+
+.Panier {
+  display: flex;
+  justify-content: center;
+  background-color: olive;
+  width: 400px;
+  height: 500px;
+  
+  .AjoutPanier {
+    display: flex;
+    
+    padding-top: 10px;
+  }
+}

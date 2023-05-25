@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+* {
+  margin: 0px;
+  text-decoration: none;
+}
+
+.TitreContainer {
+  position: absolute;
+  z-index: 100;
+  top: 35%;
+  left: 20%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hidden-image {
+  width: 60%;  
+  top: 0;
+  left: 0;
+  opacity: 0;
+  animation: fade-in 1.5s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.TitreContainer:hover .hidden-image {
+  opacity: 1;
+}
+
+.questionContainer {
+  background-color: #7ea586;
+  width: 100%;
+  height: 30vh;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+
+
+
+.hidden-parahome {
+  width: 50%;
+  padding-top: 45px;
+  padding-left: 100px;
+  float: left;
+  animation: fade-in 2s ease-in-out forwards;
+}
